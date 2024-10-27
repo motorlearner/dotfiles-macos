@@ -1,0 +1,62 @@
+# ----------------------------------------------
+#   LAYOUT
+# ----------------------------------------------
+
+## space move
+#lshift + lctrl + lalt + lcmd - left  : yabai -m space --move prev
+#lshift + lctrl + lalt + lcmd - right : yabai -m space --move next
+#
+## layout change (current space)
+#lalt + lcmd - j : yabai -m space --layout bsp
+#lalt + lcmd - k : yabai -m space --layout stack
+#lalt + lcmd - l : yabai -m space --layout float
+#
+#lctrl + lalt + lcmd - p : yabai -m space --rotate 270
+#
+## window move
+#lshift + lalt + lcmd - right : yabai -m window --swap east
+#lshift + lalt + lcmd - left  : yabai -m window --swap west
+#lshift + lalt + lcmd - up    : yabai -m window --swap north
+#lshift + lalt + lcmd - down  : yabai -m window --swap south
+#
+## window throw to space
+#lalt + lcmd + rshift - left  : yabai -m window --space prev
+#lalt + lcmd + rshift - right : yabai -m window --space next
+#
+## space throw to monitor
+#lctrl + lalt + lcmd + rshift - right : yabai -m space --display east
+#lctrl + lalt + lcmd + rshift - left  : yabai -m space --display west
+#lctrl + lalt + lcmd + rshift - up    : yabai -m space --display north
+#lctrl + lalt + lcmd + rshift - down  : yabai -m space --display south
+#
+## window toggle maximize, float
+#lalt + lcmd - m : yabai -m window --toggle zoom-fullscreen
+#lalt + lcmd - f : yabai -m window --toggle float grid 3:3:1:1:2:2
+#
+## ----------------------------------------------
+##   NAVIGATION (windows, spaces, monitors)
+## ----------------------------------------------
+#
+## window focus
+#lalt + lcmd - right : yabai -m window --focus east
+#lalt + lcmd - left  : yabai -m window --focus west
+#lalt + lcmd - up    : yabai -m window --focus north
+#lalt + lcmd - down  : yabai -m window --focus south
+#
+## spaces
+#lctrl + lalt + lcmd - left  : yabai -m space --focus prev
+#lctrl + lalt + lcmd - right : yabai -m space --focus next
+#lctrl + lalt + lcmd - 1     : yabai -m space --focus 1
+#lctrl + lalt + lcmd - 2     : yabai -m space --focus 2
+#lctrl + lalt + lcmd - 3     : yabai -m space --focus 3
+#lctrl + lalt + lcmd - 4     : yabai -m space --focus 4
+#lctrl + lalt + lcmd - 5     : yabai -m space --focus 5
+#lctrl + lalt + lcmd - 6     : yabai -m space --focus 6
+#lctrl + lalt + lcmd - 7     : yabai -m space --focus 7
+#lctrl + lalt + lcmd - 8     : yabai -m space --focus 8
+#
+## monitors
+#lshift + lalt + lctrl - up    : yabai -m display --focus north
+#lshift + lalt + lctrl - down  : yabai -m display --focus south
+#lshift + lalt + lctrl - right : yabai -m display --focus right
+#lshift + lalt + lctrl - left  : yabai -m display --focus left
